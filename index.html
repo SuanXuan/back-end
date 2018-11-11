@@ -1,0 +1,21 @@
+<?php
+    session_start();
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Suan</title>
+</head>
+<body>
+    <form method = "post" action="login.php">
+        Email：<input type="text" name="email">*<br>
+        账号：<input type="text" name="ID">*<br>
+        密码：<input type="text" name="Keyword">*<br>
+        <label for="file"></label>
+        头像上传（只允许上传jpg/jpge/png,且大小小于200k的图片）：<br>
+        <input type="file" name="file" id="file"><br>
+        <input type="submit" name = "submit" value="提交">
+    </form>
+</body>
+</html>
